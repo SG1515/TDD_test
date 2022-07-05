@@ -10,4 +10,12 @@ public class Calculator {
     }
 
 
+    public static int sub(String s) {
+        String[] sBit = s.split(" \\- ");
+        int no1 = Integer.parseInt(sBit[0]);
+        int no2 = Integer.parseInt(sBit[0]);
+
+
+        return no1 - no2;
+    }
 }
