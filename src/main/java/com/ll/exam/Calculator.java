@@ -18,4 +18,12 @@ public class Calculator {
 
         return no1 - no2;
     }
+
+    public static int mul(String s) {
+        String[] sBit = s.split(" \\* ");
+        int no1 = Integer.parseInt(sBit[0]);
+        int no2 = Integer.parseInt(sBit[1]);
+
+        return no1 * no2;
+    }
 }

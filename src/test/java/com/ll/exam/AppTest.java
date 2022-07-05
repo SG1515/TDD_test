@@ -28,9 +28,9 @@ public class AppTest {
 
     @Test
     public void 테스트_4 (){
-        int rs  = Calculator.add("1 * 2");
+        int rs  = Calculator.mul("1 * 2");
 
-        assertEquals(60, rs);
+        assertEquals(2, rs);
     }
     @Test
     public void 테스트_5 (){
